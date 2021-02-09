@@ -19,3 +19,6 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 # 添加 AdGuard Home
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 
+# 添加 OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+
