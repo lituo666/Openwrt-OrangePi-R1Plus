@@ -1,44 +1,30 @@
-# Actions-OpenWrt
+# Actions-N1-OpenWrt
 
-[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
+已加入的
 
-Build OpenWrt using GitHub Actions
+|原名|中文|
+|:----|:----|
+|LuCI ---> Applications ---> luci-app-accesscontrol  	| 访问时间控制
+|LuCI ---> Applications ---> luci-app-arpbind  	      | IP/MAC绑定
+|LuCI ---> Applications ---> luci-app-autoreboot  	  | 支持计划重启
+|LuCI ---> Applications ---> luci-app-ddns   	        | 动态域名 DNS（集成阿里DDNS客户端）
+|LuCI ---> Applications ---> luci-app-filetransfer  	| 文件传输（可web安装ipk包）
+|LuCI ---> Applications ---> luci-app-firewall   	    | 添加防火墙
+|LuCI ---> Applications ---> luci-app-nft-qos  	      | QOS流控 Nftables版
+|LuCI ---> Applications ---> luci-app-nlbwmon   	    | 网络带宽监视器
+|LuCI ---> Applications ---> luci-app-ramfree  	      | 释放内存
+|LuCI ---> Applications ---> luci-app-sfe  	          | Turbo ACC网络加速（集成FLOW,BBR,NAT,DNS...
+|LuCI ---> Applications ---> luci-app-uhttpd  	      | uHTTPd Web服务器
+|LuCI ---> Applications ---> luci-app-unblockmusic  	| 解锁网易云灰色歌曲3合1新版本
+|LuCI ---> Applications ---> luci-app-upnp            | 通用即插即用UPnP（端口自动转发）
+|LuCI ---> Applications ---> luci-app-watchcat  	    | 断网检测功能与定时重启
+|LuCI ---> Applications ---> luci-app-wol   	        | WOL网络唤醒
+|LuCI ---> Applications ---> luci-app-adguardhome     | AdGuard Home
+|LuCI ---> Applications ---> luci-app-openclash       | Open Clash
+|LuCI ---> Applications ---> luci-app-openvpn         | Open VPN
+|LuCI ---> Applications ---> luci-app-openvpnserver   | Open VPN Server
 
-[Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
-
-## Usage
-
-- Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
-- Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
-- Push `.config` file to the GitHub repository.
-- Select `Build OpenWrt` on the Actions page.
-- Click the `Run workflow` button.
-- When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
-
-## Tips
-
-- It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
-- Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
-
-## Acknowledgments
-
-- [Microsoft Azure](https://azure.microsoft.com)
-- [GitHub Actions](https://github.com/features/actions)
-- [OpenWrt](https://github.com/openwrt/openwrt)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
-- [tmate](https://github.com/tmate-io/tmate)
-- [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
-- [csexton/debugger-action](https://github.com/csexton/debugger-action)
-- [Cowtransfer](https://cowtransfer.com)
-- [WeTransfer](https://wetransfer.com/)
-- [Mikubill/transfer](https://github.com/Mikubill/transfer)
-- [softprops/action-gh-release](https://github.com/softprops/action-gh-release)
-- [ActionsRML/delete-workflow-runs](https://github.com/ActionsRML/delete-workflow-runs)
-- [dev-drprasad/delete-older-releases](https://github.com/dev-drprasad/delete-older-releases)
-- [peter-evans/repository-dispatch](https://github.com/peter-evans/repository-dispatch)
-
-## License
+- [P3TERX Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © P3TERX
