@@ -1,4 +1,4 @@
-# Actions-N1-OpenWrt
+# Actions-4B-OpenWrt
 
 已加入的
 
@@ -23,6 +23,10 @@
 |LuCI ---> Applications ---> luci-app-openclash       | Open Clash
 |LuCI ---> Applications ---> luci-app-openvpn         | Open VPN
 |LuCI ---> Applications ---> luci-app-openvpnserver   | Open VPN Server
+|LuCI ---> Applications ---> luci-app-aria2           | aria2
+|LuCI ---> Applications ---> luci-app-samba           | samba
+|LuCI ---> Applications ---> luci-app-ssr-plus        | 科学上网
+|LuCI ---> Applications ---> luci-app-transmission    | transmission
 
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
 - [P3TERX Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
