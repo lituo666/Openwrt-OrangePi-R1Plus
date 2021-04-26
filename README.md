@@ -13,6 +13,7 @@
 |luci-app-frpc            | 内网穿透客户端
 |luci-app-frps            | 内网穿透服务端
 |luci-app-nft-qos  	      | QOS流控 Nftables版
+|luci-app-netdata         | Netdata 实时监控（图表）
 |luci-app-nlbwmon   	    | 网络带宽监视器
 |luci-app-ramfree  	      | 释放内存
 |luci-app-sfe  	          | Turbo ACC网络加速（集成FLOW,BBR,NAT,DNS...
