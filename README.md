@@ -30,6 +30,13 @@
 |luci-app-samba           | samba
 |luci-app-ssr-plus        | 科学上网
 |luci-app-transmission    | transmission
+|                         |
+|Utilities --> Shells --> zsh | zsh
+|Utilities --> Editors --> vim-full | vim-full
+|Utilities --> Comperssion --> unzip | unzip
+|Utilities --> Terminal --> screen | screen
+|Network --> iperf3       | iperf3 局域网测速
+
 
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
 - [P3TERX Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)
