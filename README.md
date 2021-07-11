@@ -1,5 +1,11 @@
 # Actions-4B-OpenWrt
 
+旁路由的情况下，可以科学上网，但是国内不能上网，需要在防火墙中添加自定义规则
+
+```
+iptables -t nat -I POSTROUTING -j MASQUERADE
+```
+
 已加入的
 
 |原名|中文|
